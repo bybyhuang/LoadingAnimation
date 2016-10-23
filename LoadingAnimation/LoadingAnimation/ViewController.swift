@@ -10,21 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
     weak var loadingView:LoadingView!
+    weak var loadingViewForOC:LoadingViewForOC!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
     
-
-        let loadingView = LoadingView.showLoadingWith(view: view)        
+        //swift3写的
+        let loadingView = LoadingView.showLoadingWith(view: view)
         self.loadingView = loadingView
+        
+        //OC写的
+        //let loadingViewForOC = LoadingViewForOC.showLoading(with: view)
+        //self.loadingViewForOC = loadingViewForOC
        
     }
     
     @IBAction func hideLoadingView(_ sender: AnyObject) {
         
         loadingView.hideLoadingView()
+        
+        //loadingViewForOC.hideLoadingView()
       
     }
 

@@ -42,12 +42,11 @@ class LoadingView: UIView,CAAnimationDelegate {
         
         return loadingView
         
-
     }
     
     
     
-    //可以收懂调用隐藏动画
+    //可以手动调用隐藏动画
     func hideLoadingView()
     {
         

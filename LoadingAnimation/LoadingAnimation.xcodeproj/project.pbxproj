@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FFC022C1DBCF058009B3296 /* LoadingViewForOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC022B1DBCF058009B3296 /* LoadingViewForOC.m */; };
 		9D4EFA2E1D9A4AD100C511E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EFA2D1D9A4AD100C511E9 /* AppDelegate.swift */; };
 		9D4EFA301D9A4AD100C511E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EFA2F1D9A4AD100C511E9 /* ViewController.swift */; };
 		9D4EFA331D9A4AD100C511E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EFA311D9A4AD100C511E9 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FFC022A1DBCF058009B3296 /* LoadingViewForOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewForOC.h; sourceTree = "<group>"; };
+		8FFC022B1DBCF058009B3296 /* LoadingViewForOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewForOC.m; sourceTree = "<group>"; };
 		9D4EFA2A1D9A4AD100C511E9 /* LoadingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4EFA2D1D9A4AD100C511E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4EFA2F1D9A4AD100C511E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 			children = (
 				9D0A7C841DB770E90001AF68 /* Extension */,
 				9D4EFA5D1D9A4BFB00C511E9 /* LoadingView.swift */,
+				8FFC022A1DBCF058009B3296 /* LoadingViewForOC.h */,
+				8FFC022B1DBCF058009B3296 /* LoadingViewForOC.m */,
 				9D4EFA2F1D9A4AD100C511E9 /* ViewController.swift */,
 				9D4EFA311D9A4AD100C511E9 /* Main.storyboard */,
 				9D4EFA2D1D9A4AD100C511E9 /* AppDelegate.swift */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FFC022C1DBCF058009B3296 /* LoadingViewForOC.m in Sources */,
 				9D4EFA811D9A611200C511E9 /* UIView+Extension.m in Sources */,
 				9D4EFA301D9A4AD100C511E9 /* ViewController.swift in Sources */,
 				9D4EFA2E1D9A4AD100C511E9 /* AppDelegate.swift in Sources */,
