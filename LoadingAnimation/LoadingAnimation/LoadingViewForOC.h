@@ -13,4 +13,5 @@
 + (LoadingViewForOC *)showLoadingWith:(UIView *)view;
 + (LoadingViewForOC *)showLoadingWithWindow;
 - (void)hideLoadingView;
+
 @end
